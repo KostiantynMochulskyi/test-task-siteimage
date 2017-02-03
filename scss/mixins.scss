@@ -7,6 +7,10 @@
 		padding-right: 20px;
 		padding-left: 20px;
 	}
+	@media (max-width: 468px) {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
 }
 @mixin clearfix() {
 	&::after{
@@ -15,6 +19,12 @@
 	clear: both;
 	}
 }
-
+@mixin no-clearfix() {
+	&::after{
+	content: "";
+	display: none;
+	clear: none;
+	}
+}
 
 
