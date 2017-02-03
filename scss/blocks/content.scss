@@ -18,6 +18,12 @@
 	color: $text;
 	line-height: 20px;
 	background-color: #ffffff;
+	&:last-of-type {
+		margin-bottom: 140px;
+		@media (max-width: 880px) {
+			margin-bottom: 70px;
+		}
+	}
 }
 .content__icon-list {
 	margin-top: 32px;

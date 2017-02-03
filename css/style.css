@@ -493,6 +493,11 @@ body {
   color: #8d8d8d;
   line-height: 20px;
   background-color: #ffffff; }
+  .content__text:last-of-type {
+    margin-bottom: 140px; }
+    @media (max-width: 880px) {
+      .content__text:last-of-type {
+        margin-bottom: 70px; } }
 
 .content__icon-list {
   margin-top: 32px;
